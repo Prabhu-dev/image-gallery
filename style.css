@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,487;1,487&family=Rubik+Wet+Paint&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;1,100&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Rubik+Wet+Paint&display=swap');
+
+*{
+    margin: 0%;
+    font-style: normal;
+}
+
+nav {
+    background-color: black;
+    color: whitesmoke;
+    font-family: "Rubik Wet Paint", system-ui;
+}
+
+h1 {
+    padding: 8%;
+    font-weight: 400;
+}
+
+.image-gallery-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: white;
+    justify-content: space-around;
+    row-gap: 18px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.image-div {
+    width: 250px;
+}
+
+.image-div img {
+    margin: 0%;
+}
+
+.image-div p{
+    background-color: black;
+    color: whitesmoke;
+    font-family: "Montserrat", sans-serif;   
+}
+
+.image-div h3{
+    background-color: black;
+    color: whitesmoke;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+}
+
+footer {
+    padding: 5%;
+    text-align: center;
+    background-color: black;
+    color: whitesmoke;
+    font-family: "Rubik Wet Paint", system-ui;
+}
